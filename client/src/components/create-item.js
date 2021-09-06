@@ -135,7 +135,7 @@ export default class UpdateList extends Component {
                         onChange={this.onChangeDescription}/>
                     </div>
                     <div className="form-group">
-                        <label>Quantity: </label>
+                        <label>Quantity (KG): </label>
                         <input type="number"
                         className="form-control"
                         value={this.state.newItemQuantity}
